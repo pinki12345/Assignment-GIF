@@ -1,0 +1,468 @@
+/*
+font-family: 'League Spartan', sans-serif;  (glacial indifference)
+font-family: 'Antonio', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Alata', sans-serif;
+ font-family: 'Space Grotesk', sans-serif; (telegraf)
+*/
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+  overflow-x:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.landing_div img{
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+.intro p {
+  position: absolute;
+  top: 15.5vw;
+  left: 7vw;
+  right: 12vw;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3.6vw;
+  line-height: 4.2vw;
+}
+.intro_date {
+  position: absolute;
+  top: 33vw;
+  left: 7vw;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+}
+.intro_date p {
+  color: white;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+}
+.hr_style {
+  background-color: white;
+  height: 0.3vw;
+  position: absolute;
+  top: 38vw;
+  left: 7vw;
+  width: 32vw;
+}
+.introtxt {
+  position: absolute;
+  top: 41.2vw;
+  left: 7vw;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.introtxt p {
+  color: white;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+}
+
+
+
+.stats1, .stats2, .stats3, .stats4 {
+  display: inline-block;
+  color: #120052;
+  padding: 6vw 12vw;
+}
+h1 {
+  font-size: 6vw;
+  font-weight: bold;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.stats1 p, .stats2 p, .stats3 p, .stats4 p {
+  font-size: 2vw;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.stats1 {
+  padding-right: 18.1vw;
+}
+.stats3 {
+  padding-right: 21vw;
+}
+
+
+
+.backdrop {
+  position: relative;
+}
+.backdrop img {
+  width: 100vw;
+  height: 41vw;
+}
+.about {
+  position: absolute;
+  top: 8vw;
+  left: 37.7vw;
+}
+.about p {
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+}
+.about_txt {
+  position: absolute;
+  top: 14vw;
+  padding: 0 12vw;
+  text-align: center;
+}
+.about_txt p {
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.5vw;
+}
+
+
+
+.joinbackdrop {
+  position: relative; 
+}
+.joinbackdrop img {
+  width: 100vw;
+  height: auto;
+}
+.absolutetxt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.join {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: center;
+}
+.join p {
+  color:black;
+  padding: 5vw 0 0 0;
+}
+.man, .trends, .student1, .keynote1, .molecular1, .global1{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.trends p, .keynote1 p, .global1 p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+.man img {
+  width: 9vw;
+  margin-left: 5.5vw;
+}
+.molecular1 img {
+  width: 9vw;
+  margin-left: 5.8vw;
+}
+.student1 img {
+  width: 9vw;
+  margin-left: 12.5vw;
+}
+.firsttxt1, .sectxt1, .thirdtxt1 {
+  display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: left;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+.firsttxt2 {
+  margin-top: 1vw;
+}
+.sectxt1 {
+  margin-left: 14.5vw;
+  width: 21vw;
+  margin-top: 2vw;
+}
+.thirdtxt1 {
+  margin-left: 13.4vw;
+  width: 21.5vw;
+}
+
+.man, .trends, .student2, .keynote2, .molecular2, .global2{
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 3vw;
+  vertical-align: top;
+}
+
+
+.trends p, .keynote2 p, .global2 p {
+  margin-top: 2vw;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+.global2 p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.man img {
+  width: 9vw;
+  margin-left: 8.2vw;
+  height: 8.5vw;
+}
+.molecular1 img {
+  height: 8.5vw;
+}
+.molecular2 img {
+  width: 9vw;
+  margin-left: 8.8vw;
+  height: 8.5vw;
+}
+.student2 img {
+  width: 9vw;
+  margin-left: 7.8vw;
+  height: 8.5vw;
+}
+.firsttxt2, .sectxt2, .thirdtxt2 {
+  display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: left;
+  vertical-align: top;
+  overflow: hidden;
+}
+.firsttxt1, .firsttxt2 {
+  margin-left: 8.4vw;
+  width: 16vw;
+}
+.sectxt2 {
+  margin-left: 15vw;
+  width: 19.5vw;
+  padding-top: 1vw;
+}
+.thirdtxt2 {
+  margin-left: 14.5vw;
+  width: 17.5vw;
+  padding-top: 1vw;
+}
+
+
+.summit_bkg {
+  position: relative;
+  text-align: center;
+}
+.summit_bkg img {
+  height: 10vw;
+  width: 100vw;
+}
+.summit_txt {
+  position: absolute;
+  top:2vw;
+  left: 26vw;
+}
+.summit_txt p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  color: white;
+}
+.attendance {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.attendance img {
+  width:49.5vw;
+  height: auto;
+}
+.attendance_txt {
+  position: relative;
+  display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
+  overflow: hidden;
+  float: left;
+}
+.attendance_txt img{
+  width: 49.4vw;
+  height: 51.23vw;
+  overflow: hidden;
+}
+.abs_txt {
+  position: absolute;
+  top: 6vw;
+  left: 3vw;
+  font-size: 1.35vw;
+}
+.attendance_txt p {
+  color: white;
+  padding-right: 3vw;
+}
+.abs_txt1 {
+  position: absolute;
+  color: white;
+  top: 19vw;
+  left: 6vw;
+  padding-right: 3vw;
+  font-size: 1.35vw;
+}
+.pic_section {
+  position: absolute;
+  top: 3vw;
+  left: 6vw;
+}
+.pic_section a {
+  text-decoration: none;
+}
+.div1, .div2, .div3, .div4, .div5, .div6 {
+  display: inline-block;
+}
+.div1 img, .div3 img, .div5 img{
+  width: 2.5vw;
+  height: auto;
+}
+@media (max-width: 1200px) {
+  .pic_section {
+    top: 0vw;
+    left: 1vw;
+  }
+}
+
+.commonaward{
+  display: inline-block;
+}
+.award {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.award img {
+  width:49.5vw;
+  height: auto;
+}
+.award_txt {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.award_txt img{
+  width: 49.4vw;
+  height: 49.52vw;
+  overflow: hidden;
+}
+.awa_txt {
+  position: absolute;
+  top: 4.5vw;
+  left: 3vw;
+  font-size: 1.6vw;
+}
+.award_txt h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3vw;
+}
+.award_txt p {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  padding-right: 6vw;
+}
+
+
+
+.investors {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.investors img {
+  width: 66vw;
+  height: 35vw;
+}
+.inv_txt {
+  position: absolute;
+  top: 4vw;
+  left: 5vw;
+}
+.inv_txt h2 {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+}
+.inv_txt p {
+  font-size: 1.5vw;
+  color: white;
+  padding-right: 8vw;
+}
+.inv_pic {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+.inv_pic img {
+  width: 32.9vw;
+  height: auto;
+  overflow: hidden;
+}
+.workshop img {
+  width: 100vw;
+  height: auto;
+  padding: 0.8vw 0;
+}
+.partner {
+  position: relative;
+}
+.partner img {
+  width: 100vw;
+  height:auto;
+}
+.partner_txt {
+  position: absolute;
+  top: 6vw;
+  left: 36vw;
+}
+.partner_txt h1 {
+  font-size: 4vw;
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+}
+.conc_pic {
+  position: relative;
+}
+.conc_pic img {
+  width: 100vw;
+  height: auto;
+}
+.conctxt {
+  position: absolute;
+  top: 6vw;
+  left: 5vw;
+}
+.conctxt p, .end p {
+  font-size: 1.7vw;
+  width: 78vw;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.registernow img {
+  position: absolute;
+  top: 20vw;
+  left: 5vw;
+  width: 16vw;
+  height: auto;
+  border: solid 0.2vw white;
+}
+.applynow img {
+  position: absolute;
+  top: 40vw;
+  left: 5vw;
+  width: 16vw;
+  height: auto;
+  border: solid 0.2vw white;
+}
+.end {
+  position: absolute;
+  top: 30vw;
+  left:5vw;
+}

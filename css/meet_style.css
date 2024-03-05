@@ -1,0 +1,190 @@
+/*
+font-family: 'League Spartan', sans-serif;  (glacial indifference)
+font-family: 'Antonio', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Alata', sans-serif;
+ font-family: 'Space Grotesk', sans-serif; (telegraf)
+*/
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+  overflow-x:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.start img {
+  width: 100vw;
+  height: auto;
+}
+.start {
+  position: relative;
+}
+.textinvestors {
+  position: absolute;
+  top: 8vw;
+  right: 2vw;
+  text-align: right;
+}
+.textinvestors1 {
+  position: absolute;
+  top: 45vw;
+  right: 6vw;
+  left: 6vw;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.heading {
+  font-family: 'League Spartan', sans-serif;
+  color: #001B53;
+  font-weight: bold;
+  font-size: 3vw;
+}
+.subheading {
+  font-family: 'League Spartan', sans-serif;
+  color: #001B53;
+  font-weight: bold;
+  font-size: 2.35vw;
+}
+.para {
+  width: 70vw;
+  color: white;
+  font-size: 1.5vw;
+}
+.why {
+  font-family: 'League Spartan', sans-serif;
+  color: #001B53;
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: center;
+  padding: 4vw 0;
+}
+.meet {
+  padding: 0 8vw 1vw 8vw;
+}
+.meet1, .meet2 {
+  display: inline-block;
+  padding: 0 2vw;
+}
+.meet1 img, .meet2 img {
+  width: 37vw;
+  height: 23vw;
+}
+.meetpara1 {
+  display: inline-block;
+  color: #001B53;
+  padding-left: 10vw;
+}
+.meetpara1 h2, .meetpara2 h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  width: 36vw;
+  font-size: 2vw;
+}
+.meetpara1 p, .meetpara2 p {
+  font-family: 'Space Grotesk', sans-serif; 
+  width: 36vw;
+}
+.meetpara2 {
+  display: inline-block;
+  color: #001B53;
+  padding-left: 5vw;
+}
+.reasons {
+  position: relative;
+}
+.reasons img {
+  width: 100vw;
+  height: auto;
+  padding: 4vw 0vw 4vw 10vw;
+}
+.future {
+  position: absolute;
+  top: 5vw;
+  left: 10vw;
+  color: #001B53;
+  display: inline-block;
+}
+.future h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 1.9vw;
+  width: 23vw;
+}
+.future p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3vw;
+  width: 19vw;
+}
+.experts {
+  position: absolute;
+  top: 5vw;
+  right: -1vw;
+  color: #001B53;
+  display: inline-block;
+}
+.experts h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 1.9vw;
+  width: 23vw;
+}
+.experts p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3vw;
+  width: 19vw;
+}
+.strategic {
+  position: absolute;
+  top: 25vw;
+  left: 37vw;
+  color: #001B53;
+  display: inline-block;
+}
+.strategic h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 1.9vw;
+  width: 30vw;
+}
+.strategic p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3vw;
+  width: 30vw;
+}
+.meetend {
+  position: relative;
+}
+.meetend img {
+  width: 100vw;
+  height: auto;
+}
+.endtxt {
+  position: absolute;
+  top: 5vw;
+  left: 6vw;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.7vw;
+}
+.endtxt img {
+  width: 15vw;
+  height: auto;
+  border: 3px white solid;
+}
+.endtxt p {
+  padding-bottom: 0.4vw;
+}
+.endimg {
+  padding-top: 0.8vw;
+  padding-bottom: 2.9vw;
+}
+.txtbold {
+  font-weight: bold;
+}

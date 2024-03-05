@@ -1,0 +1,58 @@
+/*
+font-family: 'League Spartan', sans-serif;  (glacial indifference)
+font-family: 'Antonio', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Alata', sans-serif;
+ font-family: 'Space Grotesk', sans-serif; (telegraf)
+*/
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+  overflow-x:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.heading {
+    font-family: 'League Spartan', sans-serif;
+    color: black;
+    font-size: 3.5vw;
+    text-align: center;
+    padding-top: 3vw;
+}
+.subheading {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-size: 1.4vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+#contact_form {
+    text-align: left;
+    padding-left: 28vw;
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-size: 1.8vw;
+    padding-top: 1.5vw;
+}
+input, select {
+    width: 40vw;
+}
+label {
+    margin-top: 2.5vw;
+}
+#send {
+    margin: 6vw 0vw;
+    padding: 0.6vw 5vw;
+    cursor: pointer;
+    border: black;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  #send:hover {
+    background-color: black;
+    color: white;
+  }
