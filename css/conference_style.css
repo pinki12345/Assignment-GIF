@@ -284,7 +284,7 @@ ul {
 
 .img_grid2 img {
   width: 49.3vw;
-  height: 20.6vw;
+  height: 20.8vw;
 }
 
 .joinbackdrop {
@@ -292,10 +292,10 @@ ul {
   box-sizing: border-box;
 }
 
-.joinbackdrop img {
+/* .joinbackdrop img {
   width: 100vw;
   height: auto;
-}
+} */
 .imageissue {
   background-image: url("/assets/images/joinbackground.png");
   width: 100vw;
@@ -557,7 +557,7 @@ ul {
 
 @media (max-width: 1200px) {
   .imageissue {
-    height: 48vh;
+    height: 36vh;
   }
   .pic_section {
     top: 0vw;
